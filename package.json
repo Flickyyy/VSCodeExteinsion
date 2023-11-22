@@ -14,8 +14,16 @@
   "contributes": {
     "commands": [
       {
-        "command": "iwilldoittomorrow.helloWorld",
-        "title": "Hello World"
+        "command": "iwilldoittomorrow.getajoke",
+        "title": "Get Joke"
+      },
+      {
+        "command": "iwilldoittomorrow.addtodo",
+        "title": "Add task TODO"
+      },
+      {
+        "command": "iwilldoittomorrow.donetodo",
+        "title": "Done task TODO"
       }
     ]
   },
