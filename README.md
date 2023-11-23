@@ -16,7 +16,7 @@ Initial release of TODO manager
 
 ## Preview
 
-{{< video src="preview.mp4" >}}
+![gif animaton of plugin preview](preview.gif)
 
 ## Following extension guidelines
 
