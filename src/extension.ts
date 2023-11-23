@@ -6,9 +6,8 @@ export function activate(context: vscode.ExtensionContext) {
 	console.log('Congratulations, your extension "iwilldoittomorrow" is now active!');
 
 	let jokes: string[] = ["глухой слышал, как", "немой расказывал, что", "слепой увидел, как", "хромой быстро-быстро бежал",
-					"Штирлиц стрелял вслепую. Слепая испугалась и побежала скачками, но качки быстро отстали",
+					"колобок повесился",
 					"Штирлиц всю ночь топил камин. На утро камин утонул",
-					"Штирлиц стоял над картой мира. Его неудержимо рвало на родину",
 					"Штирлиц долго смотрел в одну точку. Потом в другую. \"Двоеточие!\" - наконец-то смекнул Штирлиц"];
 	let disposable = vscode.commands.registerCommand('iwilldoittomorrow.getajoke', () => {
 		vscode.window.showInformationMessage(jokes[randomInt(0, jokes.length)]);
