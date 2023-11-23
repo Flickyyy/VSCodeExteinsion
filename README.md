@@ -14,6 +14,9 @@ npm install
 
 Initial release of TODO manager
 
+## Preview
+<video width="640" height="480" controls src="preview.mkv"></video>
+
 ## Following extension guidelines
 
 There are just 3 commands and they are obviously to use:
