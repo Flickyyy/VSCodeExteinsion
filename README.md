@@ -1,28 +1,24 @@
 # iwilldoittomorrow README
 
-This is the README for your extension "iwilldoittomorrow". After writing up a brief description, we recommend including the following sections.
-
-## Features
-
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+This a simple extension written in typescript for VSCode that have 2 main goals:
+ - provide a task manager
+ - a command to get a jokes for relax
 
 ## Requirements
 
 npm install
+
+## Versions
+
 ### 1.0.0
 
 Initial release of TODO manager
 
 ## Following extension guidelines
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-There are just 3 commands and they are obviously to use
+There are just 3 commands and they are obviously to use:
+ - Add TODO command: input is just a task name. Also i add some extra information: file name and line in a file
+ - Done TODO command: when you launch this command you get a Quick Pick box that contain all added tasks. You can choose whatever you want if you done it. Also there is a extra confirm to delete a task from list
+ - Get Joke command: get a random joke from list of jokes in my extension
 
 **Enjoy!**
