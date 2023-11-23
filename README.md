@@ -15,7 +15,9 @@ npm install
 Initial release of TODO manager
 
 ## Preview
-<video width="640" height="480" controls src="preview.mkv"></video>
+<video width="1280" height="720" controls autoplays>
+  <source src="preview.mp4" type="video/mp4">
+</video>
 
 ## Following extension guidelines
 
